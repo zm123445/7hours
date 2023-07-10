@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .form{
+        
+     }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <label>Users</label>
+        <input type="text" placeholder="Name" id="inputob" />
+        <!--<label>Age</label>
+        <input type="number" placeholder="Age" id="Age"/><br>
+        <label>Ball</label>
+        <input type="number" placeholder="Ball" id="Ball" />-->
+        <button onClick="submit()">Send</button>
+    </form>
+    <button onClick="submit()">Send</button>
+    <script>
+        function submit(){
+            var a = document.getElementById("inputob");
+            var b =a.value;
+         console.log(b);
+        }
+    </script>
+</body>
+</html>
